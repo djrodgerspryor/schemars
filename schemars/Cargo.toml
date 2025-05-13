@@ -32,6 +32,7 @@ smallvec1 = { version = "1.0", default-features = false, optional = true, packag
 smol_str02 = { version = "0.2.1", default-features = false, optional = true, package = "smol_str" }
 url2 = { version = "2.0", default-features = false, optional = true, package = "url" }
 uuid1 = { version = "1.0", default-features = false, optional = true, package = "uuid" }
+http = { version = "1.3", default-features = false, optional = true, package = "http" }
 
 [dev-dependencies]
 pretty_assertions = "1.2.1"
@@ -56,6 +57,7 @@ smallvec1 = { version = "1.0", default-features = false, features = ["serde"], p
 smol_str02 = { version = "0.2.1", default-features = false, features = ["serde"], package = "smol_str" }
 url2 = { version = "2.0", default-features = false, features = ["serde"], package = "url" }
 uuid1 = { version = "1.0", default-features = false, features = ["serde"], package = "uuid" }
+http = { version = "1.3", default-features = false, features = ["serde"], package = "http" }
 
 [features]
 default = ["derive", "std"]
